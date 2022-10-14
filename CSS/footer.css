@@ -1,3 +1,18 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
+=======
+#logo{
+    object-position: right; 
+    width: 600%;
+    height: 600%;
+    background-position: 500%;
+
+}
+
+#user{
+    object-position: top;
+    
+}
+>>>>>>> c6fd3143e62c26de551af269d6dd08ddd944a507
