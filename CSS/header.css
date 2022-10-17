@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+ margin: 0;
+background-color: #FFE6EF
+}
+
+header{
+    display: flex;
+   min-height: 60px;
+    background-color: #BCA0DD;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    border-style: solid;
+  border-width: medium;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+
+}
+   
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+height: 50px;
+margin-right: 10px;
+}
+
+.creatulista{
+    font-family: 'Lato', sans-serif;
+    background-color: #FFE6EF;
+    text-align: center;
+}
