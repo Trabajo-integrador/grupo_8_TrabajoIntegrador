@@ -1,7 +1,16 @@
 h1{
-    color: aqua;
+    color: black;
 }
 
 .user {
     text-align: right;
+}
+
+#usuario {
+    
+    position:relative;
+    left: 1750px;
+    height: 100px;
+    width: 100px;
+
 }
