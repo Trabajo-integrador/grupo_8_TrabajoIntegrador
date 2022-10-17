@@ -17,5 +17,12 @@
 .footer{
 display: block;
 padding-left: 10px;
- height: 100px;
+ height: 70px;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+    background-color: #BCA0DD; /* violeta */
+    color: black;
+ text-align: left;
 }

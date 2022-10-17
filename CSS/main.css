@@ -19,6 +19,7 @@ margin: 20px 18px ;
 max-width: 1300px;
 overflow: auto;
 padding: 0 20px;
+
 }
 
 .button{
@@ -37,8 +38,11 @@ padding: 0 20px;
      
 }
 
-.h1{
-    
+.h2{
+     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
 }
 
 .cupon{
@@ -50,4 +54,11 @@ margin: 20px 18px ;
 max-width: 1300px;
 overflow: auto;
 padding: 0 20px;  
+}
+
+.frase1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
 }
