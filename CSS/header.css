@@ -13,7 +13,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-   
+    border-style: solid;
+  border-width: medium;
 }
 
  a {
