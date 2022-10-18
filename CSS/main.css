@@ -7,13 +7,13 @@
     height: 100%; 
     margin: 0 auto -100px;
     vertical-align:bottom;
-
+padding: 10px;
 
 }
-.container{
+.banner{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 400px;
 height: 200px;
 margin: 20px 18px ;
 max-width: 1300px;
@@ -35,14 +35,20 @@ padding: 0 20px;
     cursor: pointer;
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
      width: 50%;
-     
+  
 }
 
-.h2{
-     text-align: center;
-    margin-left: auto;
+.descuentos-texto {
+     text-align: justify;
+    margin-left: 15px;
     margin-right: auto;
     vertical-align: middle;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.registrarse{
+text-decoration: solid;
 }
 
 .cupon{
@@ -50,10 +56,10 @@ padding: 0 20px;
     justify-content: center;
     width: 100%;
 height: 200px;
-margin: 20px 18px ;
+margin: 20px 5px;
 max-width: 1300px;
 overflow: auto;
-padding: 0 20px;  
+  
 }
 
 .frase1 {
@@ -61,4 +67,11 @@ padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+   
+}
+
+.consultas{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
 }

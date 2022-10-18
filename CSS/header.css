@@ -13,15 +13,17 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    border-style: solid;
+    border-bottom: solid;
   border-width: medium;
+  font-family:'Lato', sans-serif ;
 }
 
  a {
     text-decoration: none;
     color: black;
-
+    font-family: 'Lato', sans-serif;
 }
+ 
    
 
 .logo{
@@ -39,3 +41,4 @@ margin-right: 10px;
     background-color: #FFE6EF;
     text-align: center;
 }
+
