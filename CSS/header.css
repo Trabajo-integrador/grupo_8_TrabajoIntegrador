@@ -39,3 +39,19 @@ margin-right: 10px;
     background-color: #FFE6EF;
     text-align: center;
 }
+h1{
+    color: black;
+}
+
+.user {
+    text-align: right;
+}
+
+#usuario {
+    
+    position:relative;
+    left: 1750px;
+    height: 100px;
+    width: 100px;
+
+}

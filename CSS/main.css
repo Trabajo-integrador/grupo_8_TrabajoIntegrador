@@ -62,3 +62,42 @@ padding: 0 20px;
     margin-right: auto;
     vertical-align: middle;
 }
+
+h2 {
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+.contenedor {
+    align-content: center;
+    max-width: 1200px;
+    width: 500%;
+    margin: 0 auto;
+}
+
+.entradaBlog a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (min-width: 480px ) {
+    .tres-columnas {
+        display: grid;
+        grid-template-columns: repeat( 3, 1fr);
+        column-gap: 3rem;
+    }
+   
+}
