@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": ".git",
+			"path": "../.git"
+		},
+		{
+			"name": ".vscode",
+			"path": "../.vscode"
+		},
+		{
+			"name": "IMG",
+			"path": "../IMG"
+		},
+		{
+			"name": "HTML",
+			"path": "."
+		},
+		{
+			"name": "CSS",
+			"path": "../CSS"
+		},
+		{
+			"name": "JS",
+			"path": "../JS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}
