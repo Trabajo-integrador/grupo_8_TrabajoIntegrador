@@ -22,7 +22,7 @@ padding-left: 10px;
  left: 0;
  bottom: 0;
  width: 100%;
-    background-color: #BCA0DD; /* violeta */
+    background-color: rgba(188, 160, 221,50%); /* violeta */
     color: black;
  text-align: left;
 }
