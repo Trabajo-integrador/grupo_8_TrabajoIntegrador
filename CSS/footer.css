@@ -26,3 +26,10 @@ padding-left: 10px;
     color: black;
  text-align: left;
 }
+
+.logoFooter{
+
+    display: flex;
+    float: left;
+
+}
