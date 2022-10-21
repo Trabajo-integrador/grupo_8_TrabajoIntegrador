@@ -22,9 +22,11 @@ padding-left: 10px;
  left: 0;
  bottom: 0;
  width: 100%;
-    background-color: #BCA0DD; /* violeta */
+    background-color:  #c999af; /* violeta */
     color: black;
  text-align: left;
+ border-style:groove;
+ border-width: thin;
 }
 
 .logoFooter{
