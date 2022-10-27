@@ -41,6 +41,12 @@ padding: 0 20px;
         left: 30%;
         border-radius: 12px;
 }
+.creatulista{
+    font-family: 'Lato', sans-serif;
+    background-color: #FFE6EF;
+    text-align: center;
+    display: flex;
+}
 
 
 .descuentos-texto {
@@ -76,7 +82,7 @@ overflow: auto;
     vertical-align: middle;
    text-transform: uppercase;
  font-family: 'Times New Roman', Times, serif;
- position: absolute;
+ position: absolute ;
  bottom: 60px;
 }
 
@@ -92,3 +98,4 @@ overflow: auto;
     text-transform:none ;
     padding:10px
 }
+

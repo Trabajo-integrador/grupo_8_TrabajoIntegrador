@@ -9,7 +9,7 @@ background-color: #FFE6EF
 header{
     display: flex;
    min-height: 60px;
-    background-color: rgba(189, 161, 221,50%);
+    background-color: #bda1dd80;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
@@ -24,19 +24,11 @@ header{
  
    
 
-.logo{
+.logo img {
+    height: 100px;
+    margin-right: 10px;
     display: flex;
     align-items: center;
-}
-
-.logo img {
-height: 60px;
-margin-right: 10px;
-}
-
-.creatulista{
-    font-family: 'Lato', sans-serif;
-    background-color: #FFE6EF;
-    text-align: center;
-}
+    }
+    
 
