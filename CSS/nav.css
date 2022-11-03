@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.nav a{
+.nav-links{
     font-weight: 600;
     padding-right: 30px;
     font-family: 'Lato', sans-serif;
+    position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  block-size: none;
     }
     
-    .nav a:hover{
+   .nav-link:hover{
     color: rgb(138, 43, 226);
     }
     
-    
-    
-    
+    nav ul {
+        display: flex;
+        gap: 1.9rem;
+      }
+      
