@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-body{
+*{
     font-family: 'Lato', sans-serif;
  margin: 0;
-background-color: #FFE6EF
+padding: 0;
+box-sizing: border-box;
+
 }
 
 header{
     display: flex;
    min-height: 60px;
-    background-color: #bda1dd80;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
@@ -21,8 +22,7 @@ header{
     color: black;
     font-family: 'Lato', sans-serif;
 }
- 
-   
+
 
 .logo img {
     height: 100px;
@@ -31,4 +31,5 @@ header{
     align-items: center;
     }
     
+
 
