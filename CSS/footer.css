@@ -19,8 +19,10 @@ display: block;
 padding-left: 10px;
  height: 70px;
  position:sticky;
- 
-    color: black;
+  color: black;
 text-align: center;
-
+ padding-top: 1rem;
+ padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
 }

@@ -18,13 +18,14 @@ header{
     padding: 0px;
   font-family:'Lato', sans-serif ;
     min-height: 60px;
-    background-color:#e3b1c8;
+   /* background-color:#e3b1c8; sugerencia sacar este color */
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    border-style:groove;
-    border-width: thin;
-    text-shadow: -1px 1px white;
+   /* border-style:groove; 
+    border-width: thin; sacar estos dos cambios */
+   /* text-shadow: -1px 1px white; cambiar shadow a color violeta*/
+   text-shadow: #e3b1c8 ;
 }
 
  a {
@@ -41,11 +42,6 @@ header{
     align-items: center;
     }
     
-
-{
-    height: 50px;
-    width: 10px;
-}
 
 .creatulista{
     font-family: 'Lato', sans-serif;
