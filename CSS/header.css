@@ -6,6 +6,8 @@
 padding: 0;
 box-sizing: border-box;
 
+    margin: 0;
+    background-color: linear-gradient(90deg  white #ffe5f0); 
 }
 
 header{
@@ -15,6 +17,14 @@ header{
     align-items: center;
     padding: 0px;
   font-family:'Lato', sans-serif ;
+    min-height: 60px;
+    background-color:#e3b1c8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    border-style:groove;
+    border-width: thin;
+    text-shadow: -1px 1px white;
 }
 
  a {
@@ -32,4 +42,29 @@ header{
     }
     
 
+{
+    height: 50px;
+    width: 10px;
+}
 
+.creatulista{
+    font-family: 'Lato', sans-serif;
+    background-color: #FFE6EF;
+    text-align: center;
+}
+h1{
+    color: black;
+}
+
+.user {
+    text-align: right;
+}
+
+#usuario {
+    
+    position:relative;
+    left: 1750px;
+    height: 100px;
+    width: 100px;
+
+}
