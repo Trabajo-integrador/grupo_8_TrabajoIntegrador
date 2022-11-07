@@ -16,6 +16,8 @@ formulario.addEventListener('submit', function (evento) {
 
 }*/
 
+document.querySelector('p').innerHTML = "Ingrese los datos pedidos";
+
 
 let name = document.getElementById ('name');
 let apellido =  document.getElementById ('apellido');
