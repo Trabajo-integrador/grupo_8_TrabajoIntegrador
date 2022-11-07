@@ -5,20 +5,6 @@ let formulario = document.querySelector ('form');
 formulario.addEventListener('submit', function (evento) {
     evento.preventDefault();
 
-    /*let name = document.getElementById('name').value;
-
-    let email = document.getElementById('email').value;
-  
-    if (name == ''|| email == ''){
-
-
-        document.querySelector('p').innerHTML = "Ingrese los datos pedidos";
-
-}*/
-
-document.querySelector('p').innerHTML = "Ingrese los datos pedidos";
-
-
 let name = document.getElementById ('name');
 let apellido =  document.getElementById ('apellido');
 let edad = document.getElementById ('edad');

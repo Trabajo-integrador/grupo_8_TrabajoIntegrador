@@ -1,39 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-body{
+*{
     font-family: 'Lato', sans-serif;
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+
     margin: 0;
     background-color: linear-gradient(90deg  white #ffe5f0); 
 }
 
 header{
     display: flex;
-    min-height: 60px;
-    background-color:#e3b1c8;
+   min-height: 60px;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    border-style:groove;
-    border-width: thin;
-    text-shadow: -1px 1px white;
+  font-family:'Lato', sans-serif ;
+    min-height: 60px;
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+   
+   
+   text-shadow: #e3b1c8 ;
 }
 
  a {
     text-decoration: none;
     color: black;
-
+    font-family: 'Lato', sans-serif;
 }
-   
 
-.logo{
-    display: flex;
-    align-items: center;
-}
 
 .logo img {
-    height: 50px;
-    width: 10px;
-}
+    height: 100px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    }
+    
 
 .creatulista{
     font-family: 'Lato', sans-serif;

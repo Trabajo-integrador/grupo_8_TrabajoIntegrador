@@ -15,17 +15,14 @@
 }
 
 .footer{
-    display: block;
-    padding-left: 10px;
-    height: 70px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:  #c999af; /* violeta */
-    color: black;
-    text-align: left;
-    border-style:groove;
-    border-width: thin;
+display: block;
+padding-left: 10px;
+ height: 70px;
+ position:sticky;
+  color: black;
+text-align: center;
+ padding-top: 1rem;
+ padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
 }
-
