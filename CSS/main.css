@@ -20,8 +20,6 @@
     overflow: auto;
     padding: 0 20px;
     grid-template-columns: repeat() ;
-
-
 }
 
 
@@ -152,9 +150,6 @@ overflow: auto;
     background-color: var(--bg-color);
     padding: 1rem 6rem;
 }
-
-
-
 /* seccion consultas end */
 
 
@@ -179,6 +174,7 @@ h3 {
     margin: 0 auto;
 }
 
+/* Sección inspiración*/
 .entradaBlog a {
     display: inline-block;
     background-color: white;
@@ -189,6 +185,8 @@ h3 {
     text-transform: uppercase;
 }
 
+/* Seccion inspiración end */
+
 @media (min-width: 480px ) {
     .tres-columnas {
         display: grid;
@@ -198,6 +196,7 @@ h3 {
    
 }
 
+/*js*/
 #error {
     color: red;
     background-color: yellow;
@@ -206,9 +205,9 @@ h3 {
 }
 
 
-.grid-container {
+.container {
+    inline-size: block;
     display: grid;
- 
     text-align: center; 
     position: relative;
     position: top 300px;  
