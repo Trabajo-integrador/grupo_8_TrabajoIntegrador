@@ -4,6 +4,7 @@
     font-weight: 600;
     padding-right: 30px;
     font-family: 'Lato', sans-serif;
+    font-size: 1rem;
     position: sticky;
   top: 0;
   left: 0;
@@ -15,7 +16,7 @@
   block-size: none;
     }
     
-   .nav-links:hover{
+   .nav-links :hover{
     color: rgb(138, 43, 226);
     }
     
