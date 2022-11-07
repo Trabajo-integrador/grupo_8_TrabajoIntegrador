@@ -104,7 +104,7 @@ h3 {
    
 }
 
-.error {
+#error {
     color: red;
     background-color: yellow;
     font-size: large;
