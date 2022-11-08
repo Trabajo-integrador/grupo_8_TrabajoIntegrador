@@ -88,4 +88,27 @@ if (name.value != '' && email.value != '' ){
 
 });
 
+const fetchApp = (province) => {
 
+    return fetch(`https://apis.datos.gob.ar/georef/api/provincias?campos=id,nombre =${province}`)
+    .then (response => response.json())
+    .catch (error => console.log(error))
+}
+const $form = document.querySelector('form');
+const $provincia = document.querySelector ('#provincia');
+const $submit = document.querySelector('#submit');
+const $results = document.querySelector('results');
+
+$form.addEventListener ('submit', function(event){
+    event.preventDefault();
+
+    const { value } = $provincia;
+
+    if (!value) return
+
+    let dataFetchAapp = fetchApp (value);
+    console.log(dataFetchAapp)
+    $results.innerHTML = dataFetchAapp;
+
+
+})
