@@ -104,7 +104,7 @@
       
       }
 
-.cupon{
+.cupon {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -112,8 +112,38 @@ height: 200px;
 margin: 20px 5px;
 max-width: 1300px;
 overflow: auto;
-
+animation-name: cupon;
+animation-duration: 4s;
 }
+
+@keyframes cupon {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+    33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+
 
 /* seccion descuentos end */
 
@@ -239,15 +269,20 @@ h3 {
         transform: translateX(0);
       }
 
+
       .hero {
         margin-top: -4rem;
         flex-direction: column;
         gap: 0;
       }
 
+      .main_text h4 {
+        font-size: 1rem;
+      }
+
     
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
    
 
     .hero_header{
@@ -260,6 +295,7 @@ h3 {
         gap: 0;
         align-items: flex-start;
         padding-bottom: 0rem;
+        size-adjust: 1rem;
     }
 
     
@@ -267,5 +303,12 @@ h3 {
         width: 18.3rem;
         flex-direction: column;
       }
-    
+      
+      .main_text {
+        font-size: -10rem;
+        align-items: flex-start;
+      }
+
+  
+   
     }
