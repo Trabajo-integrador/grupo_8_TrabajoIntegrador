@@ -25,3 +25,11 @@
         gap: 1.9rem;
       }
       
+      .burger-menu {
+        color: var(--primary-color);
+        font-size: 2rem;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+        display: none;
+      }

@@ -270,10 +270,15 @@ h3 {
         transform: translateX(0);
       }
 
+
       .hero {
         margin-top: -4rem;
         flex-direction: column;
         gap: 0;
+      }
+
+      .main_text h4 {
+        font-size: 1rem;
       }
 
     
@@ -291,6 +296,7 @@ h3 {
         gap: 0;
         align-items: flex-start;
         padding-bottom: 0rem;
+        size-adjust: 1rem;
     }
 
     
@@ -298,6 +304,12 @@ h3 {
         width: 18.3rem;
         flex-direction: column;
       }
-    
+      
+      .main_text {
+        font-size: -10rem;
+        align-items: flex-start;
+      }
+
+  
    
     }
