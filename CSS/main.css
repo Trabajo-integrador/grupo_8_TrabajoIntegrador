@@ -215,6 +215,9 @@ h3 {
     text-transform: uppercase;
 }
 
+#subtitulo {
+    text-align: center;
+}
 /* Seccion inspiración end */
 
 @media (min-width: 480px ) {
